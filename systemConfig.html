@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>后台首页</title>
+    <link rel="stylesheet" href="include/main/v2_4_1/css/layui.css">
+    <link rel="stylesheet" href="include/main/css/default.css">
+    <link rel="stylesheet" href="include/vendors/font-awesome_4_7_0/css/font-awesome.min.css">
+</head>
+<body class="layui-layout-body">
+
+<div class="layui-layout layui-layout-admin">
+    <!--顶部导航-->
+    <div class="layui-header">
+        <div class="layui-logo">TEST</div>
+
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="index.html">控制面板</a></li>
+            <li class="layui-nav-item layui-this"><a href="systemConfig.html">系统设置</a></li>
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item">
+                <a href="#">
+                    <img src="include/images/head.jpg" class="layui-nav-img">
+                    <span>管理员</span>
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">我的资料</a></dd>
+                    <dd><a href="">我的信箱</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href=""><i class="fa fa-power-off fa-lg"></i></a>
+            </li>
+        </ul>
+    </div>
+    <!--侧边导航-->
+    <div class="layui-side layui-bg-black">
+        <div class="layui-side-scroll">
+            <div class="layui-side layui-bg-black">
+                <div class="layui-side-scroll">
+                    <ul class="layui-nav layui-nav-tree">
+                        <li class="layui-nav-item">
+                            <a href="systemConfig.html"><i class="fa fa-television fa-lg mr-4"></i><span>系统设置</span></a>
+                        </li>
+                        <li class="layui-nav-item">
+                            <a href="equipmentConfig.html"><i class="fa fa-recycle fa-lg mr-4"></i><span>设备设置</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-body">
+        <div class="box">
+            <div class="text18 title"><i class="fa fa-television fa-lg"></i>系统设置</div>
+            <hr />
+            <div class="item">
+                <div class="pb-10">
+                    <blockquote class="layui-elem-quote">预留功能</blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-footer">©冰雪缘</div>
+</div>
+
+<script src="include/vendors/jquery_2_2_4/jquery.min.js"></script>
+<script src="include/main/v2_4_1/layui.all.js"></script>
+<script src="include/main/lodash/lodash.js"></script>
+<script src="include/main/javaScript/default.js"></script>
+<script src="include/main/javaScript/function.js"></script>
+<script src="include/main/javaScript/app.js"></script>
+
+</body>
+</html>
